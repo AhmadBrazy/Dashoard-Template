@@ -1,0 +1,389 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files</title>
+            <!-- css folder -->
+            <link rel="stylesheet" href="css/Master.css">
+            <!-- css  framework -->
+            <link rel="stylesheet" href="Css/MasterFramework.css">
+            <!-- google fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <!-- font style -->
+            <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700&family=Work+Sans:ital,wght@0,200;0,400;0,800;1,200;1,500;1,600&display=swap" rel="stylesheet">
+            <!-- icon library -->
+            <link rel="stylesheet" href="css/all.min.css">
+        </head>
+
+<body>  
+        <div class="page d-flex p-rel c-black ">
+            <div class="side-bar p-rel bg-white p-20 txt-center">
+                <h3 class=" txt-center mt-0  p-rel" > Master</h3>
+            <ul>
+                <li > <a class="p-10 d-flex align-center fsz-14 rad-6 " href="Dashboard.HTML"> <i class="fa-regular fa-chart-bar fa-fw"></i> <span class=" fsz-14 hid-mob">Dashboard</span></a></li>
+                <li> <a class="p-10 d-flex align-center fsz-14  rad-6" href="Settings.HTML"><i class="fa-solid fa-gear fa-fw"></i><span class=" fsz-14 hid-mob"> settings</span> </a></li>
+                <li> <a class="p-10 d-flex align-center fsz-14 rad-6" href="Profile.HTML"><i class="fa-regular fa-user fa-fw "></i> <span class=" fsz-14 hid-mob">Profile</span></a></li>
+                <li> <a class="p-10 d-flex align-center fsz-14 rad-6" href="Project.HTML"><i class="fa-solid fa-diagram-project fa-fw"></i> <span class=" fsz-14 hid-mob">Project</span></a></li>
+                <li> <a class="p-10 d-flex align-center fsz-14 rad-6" href="Courses.HTML"><i class="fa-solid fa-graduation-cap fa-fw"></i><span class=" fsz-14 hid-mob">Courses</span></a></li>
+                <li> <a  class="p-10 d-flex align-center fsz-14 rad-6" href="Friends.HTML" ><i class="fa-regular fa-circle-user fa-fw"></i><span class=" fsz-14 hid-mob">Friends</span></a></li>
+                <li> <a class="p-10 d-flex align-center fsz-14 rad-6" href="Files.HTML"><i class="fa-regular fa-file fa-fw"></i> <span class=" fsz-14 hid-mob">Files</span></a></li>
+                <li> <a class="p-10 d-flex align-center fsz-14 rad-6" href="plans.HTML"><i class="fa-regular fa-credit-card fa-fw"></i><span class=" fsz-14 hid-mob">Plans</span></a></li>
+            </ul>
+            </div>
+            <!-- satrt files -->
+            <div class="content w-full">
+                <div class="head  flex-cent-bet bg-white p-15 ">
+                        <div class="search p-rel ">
+                            <input  type="text" name="text" class="inp p-10 rad-6 p-rel" placeholder="Type A keyword">
+                        </div>
+                    <span class="bell p-rel">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                        <img src="/imgs/avatar.png" alt="logo">
+                    </span>
+                </div>
+                <h1 class="title p-rel c-black p-20 m-0">Files</h1>
+                <div class="files d- m-20">
+                    <div class="satist bg-white p-15 rad-6">
+                        <h2>Files Statistics</h2>
+                        <div class="box p-10 rad-6 bg-white flex-cent-bet">
+                            <div class=" d-flex align-center">
+                            <i class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon bg-tra-blue"></i>
+                                <div class="text">
+                                    <p class="fsz-14">PDF Files</p>
+                                <span class="c-grey fsz-14">130</span>
+                                </div>
+                            </div>
+                            <span class="c-grey">6.5GB</span>
+                        </div>
+                        <div class="box p-10 rad-6 bg-white flex-cent-bet">
+                            <div class=" d-flex align-center">
+                            <i class="fa-regular fa-images fa-lg green center-flex c-green icon bg-tra-green"></i>
+                                <div class="text">
+                                    <p class="fsz-14">Images</p>
+                                <span class="c-grey fsz-14">115 Files</span>
+                                </div>
+                            </div>
+                            <span class="c-grey">3.5GB</span>
+                        </div>
+                        <div class="box p-10 rad-6 bg-white flex-cent-bet">
+                            <div class=" d-flex align-center">
+                            <i class="fa-regular fa-file-word fa-lg red center-flex c-red icon bg-tra-red"></i>
+                                <div class="text">
+                                    <p class="fsz-14">Word Files</p>
+                                <span class="c-grey fsz-14">110 Files</span>
+                                </div>
+                            </div>
+                            <span class="c-grey">3.2GB</span>
+                        </div>
+                        <div class="box p-10 rad-6 bg-white flex-cent-bet">
+                            <div class=" d-flex align-center">
+                            <i class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon bg-tra-orange"></i>
+                                <div class="text">
+                                    <p class="fsz-14">CSV Files</p>
+                                <span class="c-grey fsz-14">99 Files</span>
+                                </div>
+                            </div>
+                            <span class="c-grey">2.9GB</span>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-angles-up mr-10"></i> Upload</a>
+                    </div>
+                    <div class="files-holder ">
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/avi.svg" alt="">
+                                <p>my-file.pdf</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span class="c-grey">Ahmad</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/dll.svg" alt="">
+                                <p>my-file.avi</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Admin</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/eps.svg" alt="">
+                                <p>my-file.eps</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Uploader</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p>my-file.psd</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Osama</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.psd</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Ahmad</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/psd.svg" alt="">
+                                <p>my-file.dll</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Coder</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.png</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Designer</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/txt.svg" alt="">
+                                <p>my-file.dll</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Coder</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/avi.svg" alt="">
+                                <p>my-file.pdf</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span class="c-grey">Ahmad</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/dll.svg" alt="">
+                                <p>my-file.avi</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Admin</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/eps.svg" alt="">
+                                <p>my-file.eps</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Uploader</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p>my-file.psd</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Osama</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.psd</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Osama</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/psd.svg" alt="">
+                                <p>my-file.dll</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Coder</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.png</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Designer</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/txt.svg" alt="">
+                                <p>my-file.dll</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Coder</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/avi.svg" alt="">
+                                <p>my-file.pdf</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span class="c-grey">Ahmad</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/dll.svg" alt="">
+                                <p>my-file.avi</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Admin</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/eps.svg" alt="">
+                                <p>my-file.eps</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Uploader</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p>my-file.psd</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Osama</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.dll</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Coder</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/psd.svg" alt="">
+                                <p>my-file.dll</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Coder</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.png</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Designer</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="card p-15">
+                            <div class="content p-rel">
+                                <img src="imgs/txt.svg" alt="">
+                                <p>my-file.dll</p>
+                                <i class="fa-solid fa-download c-grey p-absolute"></i>
+                            </div>
+                            <span>Coder</span>
+                            <div class="footer flex-cent-bet">
+                                <span class="c-grey">20/06/2020</span>
+                                <span class="c-grey">2.2MB</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                </div>
+                <!-- End files -->
+        </div>
+</body>
+</html>
